@@ -30,10 +30,10 @@
           DEFINE VS2010x86_DLL    = D:\VS2010\Common7\IDE;DEF(VS2010x86_BIN)
           DEFINE VS2010x86_BINX64 = DEF(VS2010x86_BIN)\x86_amd64
           DEFINE VS2010x86_BIN64  = DEF(VS2010x86_BIN)\x86_ia64
-4. 重启cmd，运行
-  >edksetup.bat rebuild
-  >edksetup.bat --nt32
-  >build
-  >build run
+4. 重启cmd，运行：
+  1) edksetup.bat rebuild
+  2) edksetup.bat --nt32
+  3) build
+  4) build run
 
 转自 (https://cloud.tencent.com/developer/article/1670600)
