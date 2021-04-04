@@ -6,7 +6,7 @@
 ## 安装开发工具
 1. 安装VS2010  链接：https://pan.baidu.com/s/1jwUJVKW7IXo-yF5UJa5ANg  提取码：1111 
 
-2. 安装Python2.7 https://www.python.org/downloads/release/python-2716/. 新建环境变量PYTHON_HOME，值为C:\Python27  （勾选添加到PATH，然后默认安装即可）
+2. 安装Python2.7 https://www.python.org/downloads/release/python-2716/. 新建环境变量PYTHON_HOME，值为C:\Python27  （勾选添加到PATH，然后默认安装，Python27一定要放C盘根目录）
 
 3. 下载IASL编译器.  https://acpica.org/downloads/binary-tools  ，解压到C:\asl，并添加到环境变量PATH中
 
