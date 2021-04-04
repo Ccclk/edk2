@@ -4,7 +4,7 @@
  直接在win10下安装  
 
 ## 安装开发工具
-1. 安装VS2010  链接：[点击](https://pan.baidu.com/s/1jwUJVKW7IXo-yF5UJa5ANg)  提取码：1111 
+1. 安装VS2010  链接：https://pan.baidu.com/s/1jwUJVKW7IXo-yF5UJa5ANg  提取码：1111 
 
 2. 安装Python2.7 https://www.python.org/downloads/release/python-2716/. 新建环境变量PYTHON_HOME，值为C:\Python27  （勾选添加到PATH，然后默认安装即可）
 
