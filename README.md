@@ -1,9 +1,9 @@
 # edk2
 
-## Windows下开发环境配置
+### Windows下开发环境配置
  直接在win10下安装  
 
-## 安装开发工具
+### 安装开发工具
 1. 安装VS2010  链接：https://pan.baidu.com/s/1jwUJVKW7IXo-yF5UJa5ANg  提取码：1111 
 
 2. 安装Python2.7 https://www.python.org/downloads/release/python-2716/. 新建环境变量PYTHON_HOME，值为C:\Python27  （勾选添加到PATH，然后默认安装，Python27一定要放C盘根目录）
@@ -20,7 +20,7 @@
 
 8. 预搭建base tools。从https://github.com/tianocore/edk2-BaseTools-win32 并解压到edk2\BaseTools\Bin，重命名为Win32,注意忽略此步会在接下来的搭建中遇到报错环境变量PYTHON_HOME的问题。
 
-## 配置edk2编译环境
+### 配置edk2编译环境
 
 1. 在edk2目录下使用cmd，运行edksetup.bat,生成Conf目录下的target.txt和tools_def.txt
 
