@@ -14,7 +14,7 @@
 
 5. 下载Openssl. http://wiki.overbyte.eu/arch/openssl-1.1.0g-win32.zip. 往环境变量PATH中添加C:\openssl
 
-6.下载edk2开发包, 解压: https://codeload.github.com/tianocore/edk2/zip/vUDK2018   （我自己也push）
+6.下载edk2开发包, 解压: https://codeload.github.com/tianocore/edk2/zip/vUDK2018
 
 7.生成OPENSSL加密库。 从 https://github.com/openssl/openssl/archive/OpenSSL_1_1_0g.zip 下载，下载后解压到edk2\CryptoPkg\Library\OpensslLib中，重命名为openssl.
 
@@ -31,9 +31,11 @@
           DEFINE VS2010x86_BINX64 = DEF(VS2010x86_BIN)\x86_amd64
           DEFINE VS2010x86_BIN64  = DEF(VS2010x86_BIN)\x86_ia64
 4. 重启cmd，运行：
-  -> edksetup.bat rebuild    
+
+  -> edksetup.bat Rebuild    
   -> edksetup.bat --nt32    
   -> build    
   -> build run    
 
+参考（https://github.com/tianocore/tianocore.github.io/wiki/UDK2018-How-to-Build#how-to-build-windows-system）
 转自 (https://cloud.tencent.com/developer/article/1670600)
