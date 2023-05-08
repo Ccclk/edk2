@@ -12,7 +12,7 @@
 
 4. 下载NASM. https://www.nasm.us/. 往环境变量PATH中添加C:\nasm,  (NASM_PREFIX不设置也可以, 但是会报warning. 如果设置必须设置正确, 一旦填错, 必须把udk2文件夹删除干净重来)
 
-5. 下载Openssl. http://wiki.overbyte.eu/arch/openssl-1.1.0g-win32.zip. 往环境变量PATH中添加C:\openssl
+5. 下载Openssl. https://wiki.openssl.org/index.php/Binaries  往环境变量PATH中添加C:\openssl
 
 6.下载edk2开发包, 解压: https://codeload.github.com/tianocore/edk2/zip/vUDK2018
 
